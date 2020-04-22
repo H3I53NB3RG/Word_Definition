@@ -25,7 +25,7 @@ def translate(w):
         elif answer == "N":
             return "The Word Dosen't Exsist !"
         else:
-            return "[-] Sorry, But I Don't Understand What The Fuck Do U Want :("
+            return "Sorry, But I Don't Understand What The Fuck Do U Want :("
     else:
         return "The Word Dosen't Exsist !"
 
