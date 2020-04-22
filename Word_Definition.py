@@ -1,6 +1,10 @@
 import json
 from difflib import get_close_matches
 
+f = open("banner.txt","r")
+print(f.read())
+f.close()
+
 data = json.load(open("data.json"))
 
 def translate(w):
