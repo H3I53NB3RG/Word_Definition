@@ -1,5 +1,8 @@
 import json
 from difflib import get_close_matches
+import subprocess
+
+subprocess.call(["clear"])
 
 f = open("banner.txt","r")
 print(f.read())
